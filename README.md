@@ -35,6 +35,41 @@
 
 默认情况下这些标签为空——你需要通过数据包将物品添加到对应标签中来启用兼容性。
 
+## 从源码构建
+
+### 为什么需要依赖 JAR？
+
+本模组使用 Mixin 直接引用了目标模组的类（如 `AbstractStorageBlock`、`WineBottleBlock` 等），Java 编译器在编译时必须能解析这些类才能生成 `.class` 文件和 Mixin refmap。因此**必须下载对应模组的 JAR 文件才能编译**。
+
+这些 JAR 仅用于编译（`compileOnly`），**不会被打包进最终产物**，也不会被提交到 Git 仓库。
+
+### 构建步骤
+
+1. 克隆仓库：
+   ```bash
+   git clone https://github.com/dreamdawn-dev/wine-cabinet-compat.git
+   cd wine-cabinet-compat
+   ```
+
+2. 下载以下依赖模组的 JAR 文件，放入 `libs/` 目录：
+
+   | 文件名 | 来源模组 |
+   |--------|---------|
+   | `kaleidoscope_tavern.jar` | Kaleidoscope Tavern |
+   | `vinery.jar` | Vinery |
+   | `youkaisfeasts.jar` | Youkai's Feasts |
+   | `youkaishomecoming.jar` | Youkai's Homecoming（`youkaisfeasts` 的前置依赖） |
+   | `l2library.jar` | L2 Library（Kaleidoscope Tavern 的前置依赖） |
+   | `l2serial.jar` | L2 Serial（`l2library` 的前置依赖） |
+   | `l2modularblock.jar` | L2 Modular Block（`l2library` 的前置依赖） |
+
+3. 构建：
+   ```bash
+   ./gradlew build
+   ```
+
+   构建产物位于 `build/libs/wine-cabinet-compat-1.0.0.jar`。
+
 ## 许可证
 
 本项目基于 **GNU General Public License v3.0** 开源协议发布，详见 [LICENSE](LICENSE) 文件。
