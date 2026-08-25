@@ -8,7 +8,7 @@ plugins {
 
 group = mod_group_id
 version = mod_version
-archivesBaseName = "winecabinetcompat"
+archivesBaseName = "wine-cabinet-compat"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -57,12 +57,12 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    implementation fg.deobf(files(
+    compileOnly fg.deobf(files(
             'libs/kaleidoscope_tavern.jar',
             'libs/vinery.jar',
             'libs/youkaisfeasts.jar'
     ))
-    implementation files(
+    compileOnly files(
             'libs/l2library.jar',
             'libs/l2serial.jar',
             'libs/l2modularblock.jar'
