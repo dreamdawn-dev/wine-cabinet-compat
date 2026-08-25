@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.dreamdawn.compat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "com.dreamdawn.compat.mixin.DreamdawnMixinPlugin",
+  "refmap": "dreamdawn.refmap.json",
+  "mixins": [
+    "kaleidoscopetavern.BarCabinetBlockMixin",
+    "kaleidoscopetavern.BarCabinetTakeMixin",
+    "kaleidoscopetavern.AbstractStorageBlockMixin",
+    "kaleidoscopetavern.AbstractStorageBlockTakeMixin",
+    "kaleidoscopetavern.BottleBlockFakeModelMixin",
+    "kaleidoscopetavern.DrinkBlockFakeModelMixin",
+    "vinery.WineBottleBlockFitMixin",
+    "vinery.StorageBlockTakeMixin",
+    "youkaisfeasts.WineShelfBlockEntityMixin",
+    "youkaisfeasts.BottleBlockFakeModelMixin",
+    "youkaisfeasts.WineShelfTakeMixin",
+    "youkaisfeasts.WineShelfBlockTakeMixin"
+  ],
+  "client": [
+    "kaleidoscopetavern.client.BarCabinetBlockEntityRenderMixin",
+    "kaleidoscopetavern.client.StorageBlockEntityRenderMixin",
+    "kaleidoscopetavern.client.TiltedRackBlockEntityRenderMixin",
+    "vinery.client.WineBottleRendererMixin",
+    "vinery.client.SafeBottleRendererMixin",
+    "youkaisfeasts.client.ShelfRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

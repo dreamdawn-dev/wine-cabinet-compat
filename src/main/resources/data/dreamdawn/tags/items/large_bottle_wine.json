@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "kaleidoscope_tavern:brandy", "required": false},
+    {"id": "kaleidoscope_tavern:carignan", "required": false},
+    {"id": "vinery:magnetic_wine", "required": false},
+    {"id": "vinery:jo_special_mixture", "required": false},
+    {"id": "vinery:cristel_wine", "required": false},
+    {"id": "vinery:stal_wine", "required": false},
+    {"id": "vinery:glowing_wine", "required": false},
+    {"id": "vinery:jellie_wine", "required": false},
+    {"id": "vinery:eiswein", "required": false},
+    {"id": "vinery:chenet_wine", "required": false},
+    {"id": "vinery:aegis_wine", "required": false},
+    {"id": "vinery:mellohi_wine", "required": false},
+    {"id": "vinery:strad_wine", "required": false},
+    {"id": "vinery:apple_cider", "required": false},
+    {"id": "vinery:apple_wine", "required": false},
+    {"id": "vinery:lilitu_wine", "required": false},
+    {"id": "vinery:chorus_wine", "required": false},
+    {"id": "vinery:creepers_crush", "required": false},
+    {"id": "vinery:mead", "required": false}
+  ]
+}
