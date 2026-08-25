@@ -25,5 +25,5 @@ logs/
 Thumbs.db
 
 # 本地依赖（用户需自行下载对应模组放入 libs/）
-libs/
+libs/*.jar
 bin/

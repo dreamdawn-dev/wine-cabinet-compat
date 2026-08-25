@@ -1,0 +1,11 @@
+请将以下依赖模组的 JAR 文件放入此目录：
+
+- kaleidoscope_tavern.jar
+- vinery.jar
+- youkaisfeasts.jar
+- youkaishomecoming.jar
+- l2library.jar
+- l2serial.jar
+- l2modularblock.jar
+
+详见 README.md 构建说明。
