@@ -1,9 +1,7 @@
 {
   "replace": false,
   "values": [
-    {
-      "id": "kaleidoscope_tavern:molotov",
-      "required": false
-    }
+    "#dreamdawn:large_bottle_wine",
+    "#dreamdawn:small_bottle_wine"
   ]
 }
