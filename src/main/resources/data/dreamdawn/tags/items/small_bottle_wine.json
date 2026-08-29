@@ -45,6 +45,15 @@
     {"id": "youkaisfeasts:red_wine_bottle", "required": false},
     {"id": "youkaisfeasts:soy_sauce_flask", "required": false},
     {"id": "youkaisfeasts:van_allen_bottle", "required": false},
-    {"id": "youkaisfeasts:white_wine_bottle", "required": false}
+    {"id": "youkaisfeasts:white_wine_bottle", "required": false},
+    {"id": "kaleidoscope_world_liquor:dassai", "required": false},
+    {"id": "kaleidoscope_world_liquor:lafite_1982", "required": false},
+    {"id": "kaleidoscope_world_liquor:strongbow", "required": false},
+    {"id": "kaleidoscope_world_liquor:johnnie_walker", "required": false},
+    {"id": "kaleidoscope_world_liquor:spiryt_vodka", "required": false},
+    {"id": "kaleidoscope_world_liquor:bacardi_carta_blanca", "required": false},
+    {"id": "kaleidoscope_world_liquor:pina_colada", "required": false},
+    {"id": "kaleidoscope_world_liquor:smirnoff_red_vodka", "required": false},
+    {"id": "kaleidoscope_world_liquor:skyy_vodka", "required": false}
   ]
 }

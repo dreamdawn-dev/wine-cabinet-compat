@@ -19,6 +19,24 @@
     {"id": "vinery:lilitu_wine", "required": false},
     {"id": "vinery:chorus_wine", "required": false},
     {"id": "vinery:creepers_crush", "required": false},
-    {"id": "vinery:mead", "required": false}
+    {"id": "vinery:mead", "required": false},
+    {"id": "smc:ice_tea", "required": false},
+    {"id": "kaleidoscope_world_liquor:sour_plum", "required": false},
+    {"id": "kaleidoscope_world_liquor:cool_tea", "required": false},
+    {"id": "kaleidoscope_world_liquor:kwas_chlebowy", "required": false},
+    {"id": "kaleidoscope_world_liquor:bamboo_leaf_green_liquor", "required": false},
+    {"id": "kaleidoscope_world_liquor:maotai", "required": false},
+    {"id": "kaleidoscope_world_liquor:jack_daniel", "required": false},
+    {"id": "kaleidoscope_world_liquor:bombay_sapphire_gin", "required": false},
+    {"id": "kaleidoscope_world_liquor:absolut_vodka", "required": false},
+    {"id": "brewery:whiskey_jamesons_malt", "required": false},
+    {"id": "brewery:whiskey_jojannik", "required": false},
+    {"id": "brewery:whiskey_cristelwalker", "required": false},
+    {"id": "brewery:whiskey_lilitusinglemalt", "required": false},
+    {"id": "brewery:whiskey_maggoallan", "required": false},
+    {"id": "brewery:whiskey_carrasconlabel", "required": false},
+    {"id": "brewery:whiskey_highland_hearth", "required": false},
+    {"id": "brewery:whiskey_ak", "required": false},
+    {"id": "brewery:whiskey_smokey_reverie", "required": false}
   ]
 }

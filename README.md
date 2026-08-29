@@ -12,6 +12,8 @@
 | [Kaleidoscope Tavern](https://www.curseforge.com/minecraft/mc-mods/kaleidoscope-tavern) | 否（可选） |
 | [Vinery](https://www.curseforge.com/minecraft/mc-mods/lets-do-vinery) | 否（可选） |
 | [Youkai's Feasts](https://modrinth.com/mod/gensokyo-delight-youkais-feasts) | 否（可选） |
+| [[Let's Do] Brewery](https://modrinth.com/mod/lets-do-brewery-farmcharm-compat) | 否（可选） |
+| [Kaleidoscope World Liquor](https://modrinth.com/mod/kaleidoscope-world-liquor) | 否（可选） |
 
 本模组支持以上模组的任意组合——只装一个、两个或全部三个都可以正常工作。
 
