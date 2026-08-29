@@ -9,6 +9,6 @@
     {"id": "kaleidoscope_tavern:sweet_berry_wine", "required": false},
     {"id": "kaleidoscope_tavern:vodka", "required": false},
     {"id": "kaleidoscope_tavern:rum", "required": false},
-    "kaleidoscope_world_liquor:bar_cabinet_irregular"
+    "#kaleidoscope_world_liquor:bar_cabinet_irregular"
   ]
 }
