@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "kaleidoscope_tavern:mother_snow", "required": false},
+    {"id": "kaleidoscope_tavern:miners_star", "required": false},
+    {"id": "kaleidoscope_tavern:madame_shexiang", "required": false},
+    {"id": "kaleidoscope_tavern:sunset_glow", "required": false},
+    {"id": "kaleidoscope_tavern:riesling_dry_white", "required": false},
+    {"id": "kaleidoscope_tavern:sweet_berry_wine", "required": false},
+    {"id": "kaleidoscope_tavern:vodka", "required": false},
+    {"id": "kaleidoscope_tavern:rum", "required": false}
+  ]
+}

@@ -1,5 +1,6 @@
 package com.dreamdawn.compat.mixin.kaleidoscopetavern;
 
+import com.dreamdawn.compat.DreamdawnTags;
 import com.github.ysbbbbbb.kaleidoscopetavern.block.brew.BarCabinetBlock;
 import com.github.ysbbbbbb.kaleidoscopetavern.block.brew.BottleBlock;
 import com.github.ysbbbbbb.kaleidoscopetavern.blockentity.brew.BarCabinetBlockEntity;
@@ -31,8 +32,8 @@ public abstract class BarCabinetTakeMixin {
         boolean irregular = false;
         BottleBlock bottleBlock = this.dreamdawn$invokeGetBottleBlock(stack);
 
-        // 异形酒瓶永远只走左侧
-        if (bottleBlock != null && stack.is(TagMod.BAR_CABINET_IRREGULAR)) {
+        // 异形酒瓶永远只走左侧；double_bottle_wine 例外：在大酒柜内按小瓶处理（左右各一瓶）
+        if (bottleBlock != null && stack.is(TagMod.BAR_CABINET_IRREGULAR) && !stack.is(DreamdawnTags.DOUBLE_BOTTLE_WINE)) {
             isLeftSide = true;
             irregular = true;
         } else if (single) {
