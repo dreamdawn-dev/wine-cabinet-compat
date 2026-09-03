@@ -9,6 +9,13 @@
     {"id": "kaleidoscope_tavern:sweet_berry_wine", "required": false},
     {"id": "kaleidoscope_tavern:vodka", "required": false},
     {"id": "kaleidoscope_tavern:rum", "required": false},
-    "#kaleidoscope_world_liquor:bar_cabinet_irregular"
+    {"id": "kaleidoscope_world_liquor:maotai", "required": false},
+    {"id": "kaleidoscope_world_liquor:cool_tea", "required": false},
+    {"id": "kaleidoscope_world_liquor:sour_plum", "required": false},
+    {"id": "kaleidoscope_world_liquor:bombay_sapphire_gin", "required": false},
+    {"id": "kaleidoscope_world_liquor:jack_daniel", "required": false},
+    {"id": "kaleidoscope_world_liquor:absolut_vodka", "required": false},
+    {"id": "kaleidoscope_world_liquor:bamboo_leaf_green_liquor", "required": false},
+    {"id": "kaleidoscope_world_liquor:kwas_chlebowy", "required": false}
   ]
 }
