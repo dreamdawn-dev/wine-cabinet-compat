@@ -32,12 +32,24 @@ public abstract class BarCabinetTakeMixin {
         boolean irregular = false;
         BottleBlock bottleBlock = this.dreamdawn$invokeGetBottleBlock(stack);
 
-        // 异形酒瓶永远只走左侧；double_bottle_wine 例外：在大酒柜内按小瓶处理（左右各一瓶）
-        if (bottleBlock != null && stack.is(TagMod.BAR_CABINET_IRREGULAR) && !stack.is(DreamdawnTags.DOUBLE_BOTTLE_WINE)) {
-            isLeftSide = true;
-            irregular = true;
+        if (bottleBlock != null && !stack.isEmpty()) {
+            // A single-cabinet bottle occupies the whole cabinet: no further bottle may be added
+            if (single) {
+                cir.setReturnValue(false);
+                return;
+            }
+            // Large/irregular bottles (except double_bottle_wine) require BOTH sides empty and always go to the left.
+            // Checking only the left slot caused left/right asymmetry (right occupied, left empty => wrongly inserted).
+            if (stack.is(TagMod.BAR_CABINET_IRREGULAR) && !stack.is(DreamdawnTags.DOUBLE_BOTTLE_WINE)) {
+                if (!barCabinet.getLeftItem().isEmpty() || !barCabinet.getRightItem().isEmpty()) {
+                    cir.setReturnValue(false);
+                    return;
+                }
+                isLeftSide = true;
+                irregular = true;
+            }
         } else if (single) {
-            // single 状态（异形酒瓶只显示一个）：只能从左侧交互
+            // single mode (single large/irregular bottle shown): empty hand may only interact with the left slot
             isLeftSide = true;
         }
 
